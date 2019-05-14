@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>&#128176; Incremental &#128176;</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
+    <body>
+        <div id="game">
+            <div id="left">
+                <div id="coinText"><span id="totalCoins">0</span>coins</div>
+                <img class="coinButton" src="imgs/coin.png" onclick="coinClick(event)" />
+            </div>
+
+            <div id="right">    
+                <div id="grid">
+                    
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(0)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/miner.jpeg" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Miner</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>50</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(1)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/computer.png" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Computer</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>500</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(2)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/datacenter.png" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Data center</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>2000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(3)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/supercomputer.jpg" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Super computer</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>50000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(4)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/quantumcomputer.jpg" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Quantum computer</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>200000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(5)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/AI.png" />
+                        </div>
+                        <div class="resourceText">
+                            <span>AI</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>5000000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="buyResource(6)">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/matrioshka.jpg" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Matrioshka brain</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>20000000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                    <div class="borderL"></div>
+                    <div class="borderR disabledR" onclick="reset()">
+                        <div class="resource">
+                            <img class="resourceImg" src="imgs/simulation.jpg" />
+                        </div>
+                        <div class="resourceText">
+                            <span>Simulation</span><br>
+                            <img class="smallCoin" src="imgs/coin.png" />
+                            <span>1000000000</span>
+                        </div>
+                        <div>
+                            <div class="goldCircle">0</div>
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
